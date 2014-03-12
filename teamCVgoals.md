@@ -5,7 +5,6 @@ emily:
 	get good at opencv
 	well-written code
 	make something that works! and practical
-
 	have fun with group members :)
 
 
