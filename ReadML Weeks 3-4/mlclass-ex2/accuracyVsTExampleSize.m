@@ -1,3 +1,5 @@
+function res = accuracyVsTExampleSize(maxTsize)
+
 %edubs and lvanderlyn
 %olin readML
 %2/19/2014
@@ -12,4 +14,6 @@ for i=1:10
     datasetindices = randperm(100,TE(i));
     dataset = X(datasetindices);
     %%
+end
+
 end
