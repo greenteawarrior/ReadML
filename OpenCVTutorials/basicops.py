@@ -1,12 +1,16 @@
 import cv2
 import numpy as np
+from matplotlib import pyplot as plt
 
 #emilywang
 #march11, 2014
 #opencvtutorials
 #coreoperations
 
-img = cv2.imread('messi5.jpg')
+img = cv2.imread('opencv_logo.png')
+plt.imshow(img),plt.title('opencv_logo.png')
+plt.show()
+
 px = img[100, 100]
 print px
 
