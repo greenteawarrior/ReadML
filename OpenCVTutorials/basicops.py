@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #emilywang
-#march11, 2014
+#march 11, 2014
 #opencvtutorials
 #coreoperations
 
@@ -41,6 +41,7 @@ print img.dtype #useful for debugging!!
 
 
 ### image ROI (region of interest)
+
 #selecting the ball in the image and copying it to another region
 # ball = img[280:340, 330:390] 
 # img[273:333, 100:160] = ball
@@ -54,9 +55,7 @@ print img.dtype #useful for debugging!!
 # split method is less efficient than the numpy method
 b, g, r = cv2.split(img)
 img = cv2.merge((b, g, r))
-
 # OR
-
 # use numpy indexing!
 b = img[:,:,0]
 

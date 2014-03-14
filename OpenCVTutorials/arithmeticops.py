@@ -1,10 +1,10 @@
+import cv2
+import numpy as np
+
 #emilywang
 #opencv tutorials
 #olin readml
 #march 12, 2014
-
-import cv2
-import numpy as np
 
 ### image addition
 x = np.uint8([250])
